@@ -1,2 +1,12 @@
 
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+.w3-text-teal, .w3-hover-text-teal:hover {
+    color: #6c93bb !important;
+  }
+
+
+  .w3-teal, .w3-hover-teal:hover {
+    color: #ffffff !important;
+    background-color: #6c93bb !important;
+  }

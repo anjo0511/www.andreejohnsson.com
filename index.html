@@ -6,9 +6,8 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
+<link rel="stylesheet" href="css/main.css">
+
 <body class="w3-light-grey">
 
 <!-- Page Container -->
@@ -22,53 +21,36 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
       <div class="w3-white w3-text-grey w3-card-4">
         <div class="w3-display-container">
-          <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+          <img src="profile.png" style="width:100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Jane Doe</h2>
+            <h2>Andreé Johnsson</h2>
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Designer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>London, UK</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>ex@mail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Data Engineer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Stockholm, Sweden</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>andreejohnssons@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+46 707 578 995</p>
+          <p><i class="fa fa-linkedin fa-fw w3-margin-right w3-large w3-text-teal"></i><a href="https://www.linkedin.com/in/andreejohnsson/">andreejohnsson</a></p>
           <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Background</b></p>
+          <div class="w3-container">
+            <p>M. Sc Engineering, Bioinformatics, Umeå University
+              <br>R&D
+              <br>BioTech
+              <br>Market research
+            </p>
+            <hr>
           </div>
-          <p>Photography</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
-            </div>
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Competences</b></p>
+          <div class="w3-container">
+            <p>Python, SQL, Unix, Linux, Bash, Docker, Docker-compose, Flask, AWS cli, AWS Boto3, AWS Lambda , 
+              AWS SQS, AWS Parameter Store, AWS Buckets, Pandas, Jupyter notebook, Git, R, Github-actions, Tidyverse, 
+              Plotly, Anaconda, Pyspark, BigQuery, Google Data Studio, Google Cloud Platform, Apache airflow, JIRA, Trello, 
+              Agile, Scrum, Rstudio-server management, Shiny-proxy, R-shiny</p>
+            <hr>
           </div>
-          <p>Illustrator</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
-          </div>
-          <p>Media</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>Spanish</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:55%"></div>
-          </div>
-          <p>German</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-          </div>
-          <br>
         </div>
       </div><br>
 
@@ -77,68 +59,136 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
     <!-- Right Column -->
     <div class="w3-twothird">
-    
+
       <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Summary</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+          <p>Andreé is a structured and result-oriented data engineer and data scientist with a strong sense of responsibility. 
+            He has a technical background in building big data workflows to process, analyze and make automated reports using best practices. 
+            Andreé has conducted and led projects in data engineer and data scientist roles in the R&D and Market research industry.</p>
+          <p>His curiosity and structural way of thinking suits him very well in challenging projects that require great 
+            communication skills and a high level of teamwork. He is reliable and devoted to delivering results that fit the needs of 
+            the client holding great pride in ensuring quality products that make an impact. Andreé has a genuine interest in technology 
+            and likes to stay up to date with the latest trends in the data/analytics-space.</p>
           <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Selected Experience</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <p>Web Development! All I need to know in one place</p>
+          <h5 class="w3-opacity"><b>Data engineer - Universum Global</b></h5>
+          <p>Universum Global conducts the world's largest research study on talent career expectations. Every year their online career assessment is taken by
+             one million students in over 50 countries. The company was in the middle of a delayed cloud migration program. This postponed all delivery dates. 
+             The project was about reviving the previously used LPS systems in order to meet the acute deadlines maintaining high data quality. 
+             Andreé was responsible for writing a workflow to run scheduled daily data downloads from an API and transform and clean the data from a new data 
+             delivery tool to adjust to the legacy production systems. He was able to support the entire organization's data needs and deliver quality data for 
+             all active markets.
+          </p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>London Business School</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
-          <p>Master Degree</p>
+          <h5 class="w3-opacity"><b>Data Engineer - Ipsos Group S.A</b></h5>
+          <p>Ipsos is one of the largest market research companies in the world. Ipsos engages in collecting, processing and delivering survey data for brands,
+             companies and institutions. The task was to examine a new tool for dashboard creation and to initially prove profitability of the product. 
+             Andreé set up containerized environments for each application capable of package version control. He created a repository of modules for easy 
+             maintenance of dashboard codebase and successfully set up two platforms where the clients had personal logins and viewing pages. 
+             He also set up a user management database with LDAP and user statistics databases with influxdb and grafana. Today this project has over 43 
+             dashboards and analytical apps in production with over 200 paying customers.</p>
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b>School of Coding</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
-          <p>Bachelor Degree</p><br>
+          <h5 class="w3-opacity"><b>Data Engineer - Ipsos Group S.A</b></h5>
+          <p>Ipsos is one of the largest market research companies in the world. Ipsos engages in collecting, processing and delivering survey data for brands, 
+            companies and institutions. The project was about setting up generic pipelines for data cleaning, data analysis and reporting so that the client 
+            was able to handle many ongoing tracking projects. Andreé set up modularized pipelines that allowed to customize and build pipelines for the 
+            specific project needs. To showcase this new setup he automized the four largest projects in the company. One of them produced a total of 19 
+            reports each month of up to 150 slides each, saving costs of at least 10 full time employees. He also built a dashboard with more than the 
+            quadrupled amount of data shown in the reports. This type of delivery soon became the de facto standard delivery of large tracking data.</p>
+          <hr>
         </div>
       </div>
-
     <!-- End Right Column -->
     </div>
+
+    <div style="float:left; width:99%;margin-left:5px;">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Expericence</h2>
+        
+        <div class="w3-container">
+        <h5 class="w3-opacity"><b>Data engineer - ETL workflow to LPS</b></h5>
+        <h6 class="w3-text-teal">Universum Global - <i class="fa fa-calendar fa-fw w3-margin-right"></i>Q1 2022 - Ongoing</h6>
+        <p>Universum Global conducts the world's largest research study on talent career expectations. Their online career assessment is taken by one million students and young professionals in over 50 countries each year. Universum enables employers to better understand, attract and retain top talent. The company is a trusted partner to over 1,200 clients and 1,500 universities worldwide.</p>
+        <p>The company was in the middle of a delayed cloud migration program. This postponed all delivery dates and the new systems failed to support the organization's entire product line and jeopardized customer relations due to poor data quality. The project was about reviving the previously used Legacy Production Systems (LPS) in order to meet the acute deadlines maintaining high data quality.</p>
+        <p>Andreé  was responsible for writing a workflow to run scheduled daily data downloads from an API and transform the data from a new data delivery tool to adjust to LPS. The pipeline included scheduled downloads, data cleaning, upload/download to S3 buckets, and syncing data to LPS. This solution was then together with the DevOps team deployed in production in AWS using AWS lambda, SQS, and automated builds. The project had great success and was able revive the LPS in order to deliver reliable data for all markets  to the entire organization.</p>
+        <hr>
+        </div>
+
+        <div class="w3-container">
+        <h5 class="w3-opacity"><b>Data Engineer - Workflow orchestration & automation</b></h5>
+        <h6 class="w3-text-teal">Ipsos - <i class="fa fa-calendar fa-fw w3-margin-right"></i>Q3 2019 - Q1 2022</h6>
+        <p>Ipsos Group S.A is one of the largest market research companies in the world. Ipsos engages in collecting, processing and delivering survey data for brands, companies and institutions. It explores market potential and market trends, tests products and advertising, studies audiences and their perceptions of various media and measures public opinion trends.</p>
+        <p>The project was about setting up generic pipelines for data cleaning, data analysis and reporting so that the client was able to handle many ongoing tracking projects with the same setup and be able to quickly produce reports and scale up. The original setup had a lot of manual steps and was very time consuming not only by producing the outcome but also quality assuring this much data, making this prone to human errors.</p>
+        <p>Andreé set up modularized pipelines that allowed to customize and build pipelines for the specific project needs. To showcase this new setup he automized the four largest projects in the company. The workflows cleaned and transformed the data, performed calculations of all KPI’s and produced a large amount of reports, including aggregated tables, and powerpoints on a monthly, rolling3, rolling12, quarterly and yearly basis. As a reference one of the projects was for a major Swedish telecom company and automated powerpoints for six markets, producing a total of 19 reports each cycle of up to 150 slides each, saving costs of at least 10 full time employees on quality assurance and manual adjustments. In addition to the reports for the same client Andreé showcased a dashboard that showed all mentioned data but also including breaks on segment, target groups and other major KPIs which more than quadrupled the amount of data shown in the reports, the client ended up buying this solution for a significant amount of money. This type of dashboards became the de facto standard delivery for large tracking data.</p>
+        <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h5 class="w3-opacity"><b>Data engineer -  Codebase/Package Maintenance for Data manipulation</b></h5>
+        <h6 class="w3-text-teal">Ipsos - <i class="fa fa-calendar fa-fw w3-margin-right"></i>Q3 2019 - Q1 2022</h6>
+        <p>Ipsos Group S.A is one of the largest market research companies in the world. Ipsos engages in collecting, processing and delivering survey data for brands, companies and institutions. It explores market potential and market trends, tests products and advertising, studies audiences and their perceptions of various media and measures public opinion trends.</p>
+        <p>The task was to maintain and extend the existing premature codebase in order to hold well documented and efficient code that will be used in all projects for data manipulation, data cleaning and data analysis.</p> 
+        <p>Andreé was responsible for maintaining the fast growing codebase with over 50 well documented efficient scripts. He organized the scripts and wrote R packages to consolidate the scripts functionality and for easy maintenance. He led the development of the codebase and stabilized it with extensive code reviews and package releases. Initially the codebase was an untidy repository and every script worked individually. Andreé’s code libraries are installed and used daily by the entire data team. Now the client possesses a central hub for their main scripts where everything is organized and well documented so that it is used in more than 200 now consolidated projects each year.</p>
+        <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h5 class="w3-opacity"><b>Data Engineer – Set up server management for production and dev environment</b></h5>
+        <h6 class="w3-text-teal">Ipsos - <i class="fa fa-calendar fa-fw w3-margin-right"></i>Q1 2022 - Q1  2022</h6>
+        <p>Ipsos Group S.A is one of the largest market research companies in the world. Ipsos engages in collecting, processing and delivering survey data for brands, companies and institutions. It explores market potential and market trends, tests products and advertising, studies audiences and their perceptions of various media and measures public opinion trends.</p>
+        <p>The task was to set up a development and production environments in which the team for data science could perform their daily tasks and projects as well as deploy their solutions in production. Ipsos internal regulations do not allow for a cloud solution hence the task is to provide an inhouse solution that met their needs.</p>
+        <p>Andreé together with the IT-department designed and set up the Architecture for server management and was able to set up an inhouse development and production space. This allowed the team for data science to use their entire analytics stack on the servers and apply a reliable CI/CD methodology and optimized server usage. This included among others: rstudio-server, Python, docker, shinyproxy, SSH and git.</p>
+        <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h5 class="w3-opacity"><b>Data Engineer – ETL workflow for processing traffic data</b></h5>
+        <h6 class="w3-text-teal">Ipsos - <i class="fa fa-calendar fa-fw w3-margin-right"></i>Q3 2020 - Q2  2021</h6>
+        <p>Ipsos Group S.A is one of the largest market research companies in the world. Ipsos engages in collecting, processing and delivering survey data for brands, companies and institutions. It explores market potential and market trends, tests products and advertising, studies audiences and their perceptions of various media and measures public opinion trends.</p>
+        <p>The aim of this project is to set up an extraction pipeline to download, transform and clean data from the Swedish transport administration’s API in order to support a project aiming to map outdoor advertising placement for the client.</p>
+        <p>Andreé built an ETL workflow to download, transform and clean data from the REST API. He supported project owners with high quality traffic data for the entire country. This data was used to place outdoor advertisements to maximize visibility and guarantee customer views.</p>
+        <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h5 class="w3-opacity"><b>Data Engineer - Setup and Maintain Platforms for hosting dashboards</b></h5>
+        <h6 class="w3-text-teal">Ipsos - <i class="fa fa-calendar fa-fw w3-margin-right"></i>Q3 2019 - Q1  2022</h6>
+        <p>Ipsos Group S.A is one of the largest market research companies in the world. Ipsos engages in collecting, processing and delivering survey data for brands, companies and institutions. It explores market potential and market trends, tests products and advertising, studies audiences and their perceptions of various media and measures public opinion trends.</p>
+        <p>The task was to examine a new tool for dashboard creation and to initially prove profitability of the product. The main purpose of this was to be able to scale up and monetize adding this tool to the clients product supply. The second main objective was build flexibility, reproducibility and automated updates.</p>
+        <p>Andreé changed the initial setup of all apps hosted in one environment to a solution where every app is hosted in its own dedicated environment within a docker image and package version control with anaconda. He led the development of creating a repository of modules for easy maintenance of dashboard codebase and successfully set up two platforms where the clients had  personal logins and viewing pages. He also set up a user management database with LDAP and user statistics databases with influxdb and grafana. This project was very successful starting from 2 client facing dashboards to over 43 dashboards & analytical apps in production with over 200 paying customers. To handle the dataflow and automatic updates Andreé set up an SQL-Lite solution in which each app has its own dedicated database, this was the initial step in a larger journey towards a modern data warehouse solution. This made an immense impact on the client since the data science teams had never made their own revenue and only supported other business units.</p>
+        <hr>
+        </div>
+        
+        <div class="w3-container">
+        <h5 class="w3-opacity"><b>Data Scientist - Classification and Analysis of Genetic Data</b></h5>
+        <h6 class="w3-text-teal">Umeå Plant Science Center - <i class="fa fa-calendar fa-fw w3-margin-right"></i>Q1 2019 - Q2 2019</h6>
+        <p>UPSC is one of the strongest research environments for experimental plant biology in Europe and conducts research of both basic and strategic importance. Research at UPSC covers a wide range of disciplines in plant biology including ecology, genetics, physiology, biochemistry, cell biology and bioinformatics.</p>
+        <p>The project aimed to find a subset of novel target genes that with the interaction of well known genes regulates flowering time in populus trees during its annual growth cycle. This project's main objective was to analyze big data from 200 tree samples artificially grown in the greenhouse for several years.</p>
+        <p>Andreé performed cluster analysis using fuzzy clustering yielding several potential candidates with similar performance under different time points; this approach  reduced noise by allowing the same gene to belong to multiple clusters. He performed time series analysis to discover genes that were highly correlated with the expression patterns of known flowering-time related genes and was able to find a subset of target genes that could potentially shed light into unknown mechanisms. To help fellow researchers to take part in this research, Andreé created a dashboard in which all information of the methods used was published with the ability to perform real time downstream analysis by interactive plotting for all data sets with more than 40 000 plots and over 200 000 entries in the results database.</p>
+        <hr>
+        </div>
+        
     
-  <!-- End Grid -->
+      </div>
+    </div>
+
   </div>
-  
+  </div>
+    <!-- END The Grid -->
+  </div>
   <!-- End Page Container -->
 </div>
 
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-snapchat w3-hover-opacity"></i>
-  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-  <i class="fa fa-twitter w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
 
 </body>
 </html>
